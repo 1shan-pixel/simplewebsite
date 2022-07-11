@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+*{
+    padding :  0 ; 
+    border :0 ; 
+}
+.sidebar{
+    
+    width: 196px;
+    font-family: 'Titillium Web', sans-serif; 
+    height: 100vh;
+    padding: 33px 0;   
+}
+.main{
+    
+    width: 1230px;
+
+
+}
+
+.container{
+    display: flex; 
+    
+    
+    
+
+}
+.infoContainer{
+   
+    height: 40vh ; 
+    width : 70vw; 
+    display: flex;
+    justify-content: space-around; 
+    margin : 144px auto; 
+    background-color: chocolate;
+    color: white;
+}
+
+.sidebar nav{
+    padding: 51px; 
+    padding-bottom: 74px;
+    color: white;
+    background-color: #bb8762;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 24px;
+    padding: 13px 0; 
+    
+
+}
+.devPic img{
+    
+    height: 40vh;
+    
+}
+.devInfo{
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column; 
+    font-family:  'Open Sans', sans-serif;
+    
+}
+.hello{
+
+    font-size :35px;
+    padding: 1px; 
+}
+.name{
+    font-size: 23px;
+    padding: 3px; 
+}
+.about{
+    font-size: 28px;
+    padding: 3px;
+}
+buttons{
+    margin-top: 34px; 
+}
+
+.btn{
+    
+    font-size: 13px;
+    border-radius : 18px;  
+    padding  : 1px; 
+    background-color: cadetblue;
+    color: navajowhite;
+    cursor: pointer; 
+    width: 6vw;
+}
+.btn:hover{
+    color: cadetblue;
+    background-color: navajowhite;
+    
+}
+.btn-sm{ 
+    font-size: 14px;
+    padding: 4px 5px;
+    margin: 4px 0;
+    text-decoration: none;
+
+}
+.sidebar nav li a {
+    list-style: none;
+    font-size: 24px;
+    padding: 13px 0; 
+    
+
+
+}
+.contactform{
+    font-family: 'Fira Sans' , sans-serif; 
+    padding: 44px 31px;
+}
+
+h1{
+     font-family: 'Titillium Web', sans-serif; 
+     
+
+}
+.contactform form  div{
+    padding: 10px 0;
+    display: flex; 
+    flex-direction: column; 
+}
+
+#emailHelp{
+    font-size: 10px; 
+    color: midnightblue; 
+    margin: 0 7px; 
+}
+.contactform div input{
+    font-size: 14px;
+    width: 20vw;
+    border-radius: 8px;
+    margin: 6px 0 0 0 ; 
+    padding: 3px;  
+    border-width: 40px;
+    border: 2px solid black;
+}
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 24px; 
+    margin: 3px 0;      
+}   
+#showpassword{
+    display: flex; 
+    flex-direction: row;
+}
+.form-control{
+    padding: 5px;
+    font-size: 13px;
+}
+.blogItem{
+    margin: 20px;
+    font-family:'Open Sans', sans-serif;
+    
+}
+.blogContainer h1{
+    font-family:'Titillium Web', sans-serif; 
+    margin: 23px; 
+}
+p{    
+    font-family: 'Lato', sans-serif;
+
+}
+#check{
+    width: 16px
+}
+
+.skill{
+    background-color: blue; 
+    height: 6px;
+    width: 26px; 
+    margin: 13px;
+    border: 5px solid black;
+    border-radius: 10px;
+    font-weight: 900;
+}
+.skillItem{
+    display: flex; 
+    align-items: center;
+}
+.hundred{
+    width: 100px; 
+}
+.fifty{ 
+    width: 50px; 
+
+}
+.t5{
+    width: 25px; 
+}
+.intro{
+    margin: 10px; 
+}
+.skillcontainer{
+    margin: 10px; 
+}
+.projectitems{
+    display: flex;
+    flex-direction: row;
+    
+}
+.projectitems h2{
+    margin: 5px 33px 5px 0px; 
+}
